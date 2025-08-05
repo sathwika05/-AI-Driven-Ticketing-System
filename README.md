@@ -27,4 +27,20 @@ A smart, scalable ticket management solution powered by AI to streamline support
 - 📧 Automated email notifications
 - ⏳ Asynchronous and resilient ticket handling
 
+---
+
+## 🛠️ Tech Stack
+
+| Layer            | Technology                         |
+|-------------------|-------------------------------------|
+| **Backend**       | Node.js, NestJS                     |
+| **Frontend**      | ReactJS                             |
+| **Database**      | PostgreSQL                         |
+| **Authentication**| JWT                                |
+| **AI Integration**| Google Gemini API                  |
+| **Background Jobs**| Inngest                           |
+| **Email Service** | Nodemailer + Mailtrap              |
+
+
+
 
