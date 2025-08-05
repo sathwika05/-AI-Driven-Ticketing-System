@@ -41,6 +41,22 @@ A smart, scalable ticket management solution powered by AI to streamline support
 | **Background Jobs**| Inngest                           |
 | **Email Service** | Nodemailer + Mailtrap              |
 
+---
+
+## 📝 API Endpoints
+
+### 🔐 Authentication
+- `POST /api/auth/signup` – Register a new user  
+- `POST /api/auth/login` – Login and receive a JWT token  
+
+### 🧾 Tickets
+- `POST /api/tickets` – Create a new support ticket  
+- `GET /api/tickets` – Fetch all tickets for the logged-in user  
+- `GET /api/tickets/:id` – Get detailed info for a specific ticket  
+
+### 🛡️ Admin
+- `GET /api/auth/users` – View all users (Admin only)  
+- `POST /api/auth/update-user` – Update user role and skills (Admin only) 
 
 
 
